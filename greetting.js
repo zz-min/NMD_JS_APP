@@ -17,6 +17,7 @@ function paintGreeting(text){//유저가 있는 경우
 
 function handleSubmit(event){
     event.preventDefault();
+    
     const currentValue = input.value; 
     paintGreeting(currentValue);
     //console.log(currentValue);
